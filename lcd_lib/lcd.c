@@ -86,3 +86,20 @@ void lcd_puts(char *c) {        //simple string send to lcd
     c++;                        
     }
 }
+
+void lcd_clear(){
+    lcd_send_E_8(0x01);
+  }
+  void lcd_gotoxy(char x , char y){
+  
+      switch (y) { 
+      
+      case 0:
+          lcd_send_E_8(0x80 | x ); 
+      break;
+      case 1:
+          lcd_send_E_8(0x80 | (x + 0x40)); 
+      break; 
+      
+      }
+  }
