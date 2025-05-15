@@ -6,9 +6,9 @@ Example with PORTB [Click here to see](https://bin.hightechrobo.com/paste.php?id
 
 Example with PORTA [Click here to see](https://bin.hightechrobo.com/paste.php?id=330).
 
+![alt text](https://raw.githubusercontent.com/arianramianpour/AVR_HD44780-_74HC595/refs/heads/main/wiring/fritzing/lcd_bb.png)
+
 Example with CodeVisionAVR
-
-
 ```c
 #include <mega32.h>
 #include <delay.h>
