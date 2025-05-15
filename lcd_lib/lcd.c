@@ -9,9 +9,9 @@ void send_ports(unsigned char a){
         if((a << i)&0x80)
             LCD_PORT |= (1 << LCD_DS) | (1 << LCD_SH_CP);
         else     
-        LCD_PORT |= (1 << LCD_DS) ;
+        LCD_PORT |= (1 << LCD_SH_CP) ;
          
-        LCD_PORT &= ~((1 << LCD_DS) | (1 << LCD_SH_CP)); 
+        LCD_PORT &= ~((1 << LCD_SH_CP) | (1 << LCD_DS)); 
          
             } 
             
