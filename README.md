@@ -4,7 +4,7 @@ All setting and user commands are in lcd.h file
 
 Example with PORTB [Click here to see](https://bin.hightechrobo.com/paste.php?id=329).
 
-Example with PORTA [Click here to see](https://://bin.hightechrobo.com/paste.php?id=330).
+Example with PORTA [Click here to see](https://bin.hightechrobo.com/paste.php?id=330).
 
 Example with CodeVisionAVR
 
